@@ -2,21 +2,16 @@
 
 ## About the Project
 
-The Airbnb Clone Project is a comprehensive, real-world application designed to simulate the development of a robust booking platform like Airbnb. It involves a deep dive into full-stack development, focusing on backend systems, database design, API development, and application security. This project enables developers to understand complex architectures, workflows, and collaborative team dynamics while building a scalable web application.
+The backend for the Airbnb Clone project is designed to provide a robust and scalable foundation for managing user interactions, property listings, bookings, and payments. This backend will support various functionalities required to mimic the core features of Airbnb, ensuring a smooth experience for users and hosts.
 
-## Learning Objectives
+## Project Goals
 
-This project is tailored to enhance the expertise in modern software development practices.
-
-- Master collaborative team workflows using GitHub.
-- Deepen their understanding of backend architecture and database design principles.
-- Implement advanced security measures for API development.
-- Gain proficiency in designing and managing CI/CD pipelines for efficient deployment.
-- Strengthen their ability to document and plan complex software projects effectively.
-- Develop an understanding of integrating technologies like Django, MySQL, and GraphQL in a unified ecosystem.
-- Learn to create and manage RESTful APIs and GraphQL endpoints.
-- Explore the use of Docker for containerization and deployment.
-- Understand the principles of microservices architecture and its application in real-world scenarios.
+- **User Management**: Implement a secure system for user registration, authentication, and profile management.
+- **Property Management**: Develop features for property listing creation, updates, and retrieval.
+- **Booking System**: Create a booking mechanism for users to reserve properties and manage booking details.
+- **Payment Processing**: Integrate a payment system to handle transactions and record payment details.
+- **Review System**: Allow users to leave reviews and ratings for properties.
+- **Data Optimization**: Ensure efficient data retrieval and storage through database optimizations.
 
 ## Team Roles
 
@@ -83,33 +78,42 @@ The core entities for the Airbnb Clone Project are:
 
 ## Feature Breakdown
 
-### User Management
+### API Documentation
 
-Handles user registration, authentication, and profile management. This feature ensures secure access to the platform and allows users to manage their personal information and account settings.
+- **OpenAPI Standard**: The backend APIs are documented using the OpenAPI standard to ensure clarity and ease of integration.
+- **Django REST Framework**: Provides a comprehensive RESTful API for handling CRUD operations on user and property data.
+- **GraphQL**: Offers a flexible and efficient query mechanism for interacting with the backend.
+
+### User Authentication
+
+- **Endpoints**: `/users/, /users/{user_id}/`
+- **Features**: Register new users, authenticate, and manage user profiles.
 
 ### Property Management
 
-Enables users to list, update, and remove properties for rent. Property owners can manage details such as descriptions, pricing, and availability, making it easy to showcase rental options to potential guests.
+- **Endpoints**: `/properties/, /properties/{property_id}/`
+- **Features**: Create, update, retrieve, and delete property listings.
 
 ### Booking System
 
-Allows users to search for available properties, make reservations, and manage their bookings. This feature coordinates property availability and ensures a smooth reservation process for both guests and hosts.
-
-### Review System
-
-Lets users leave feedback and ratings for properties they have stayed in. Reviews help maintain quality standards and provide valuable insights for future guests.
+- **Endpoints**: `/bookings/, /bookings/{booking_id}/`
+- **Features**: Make, update, and manage bookings, including check-in and check-out details.
 
 ### Payment Processing
 
-Manages secure payment transactions for bookings. This feature integrates with payment gateways to handle payments, refunds, and track transaction statuses, ensuring financial integrity.
+- **Endpoints**: `/payments/`
+- **Features**: Handle payment transactions related to bookings. This includes processing payments, recording transaction details, and managing payment statuses.
 
-### API & Security
+### Review System
 
-Provides RESTful and GraphQL endpoints for frontend integration, with robust authentication and authorization mechanisms. This ensures data privacy and secure interactions between clients and the backend.
+- **Endpoints**: `/reviews/, /reviews/{review_id}/`
+- **Features**: Post and manage reviews for properties.
 
-### Containerization & Deployment
+### Database Optimization
 
-Utilizes Docker and CI/CD pipelines for consistent deployment and scalability. This feature streamlines the development workflow and simplifies infrastructure management.
+- **Indexing**: Implement indexes for fast retrieval of frequently accessed data.
+- **Caching**: Use caching strategies to reduce database load and improve performance.
+
 
 ## API Security
 
