@@ -77,3 +77,33 @@ The core entities for the Airbnb Clone Project are:
 - A **Property** can have multiple **Reviews**.
 - A **Review** is written by a **User** for a **Property**.
 - A **Booking** can have one **Payment**.
+
+## Feature Breakdown
+
+### User Management
+
+Handles user registration, authentication, and profile management. This feature ensures secure access to the platform and allows users to manage their personal information and account settings.
+
+### Property Management
+
+Enables users to list, update, and remove properties for rent. Property owners can manage details such as descriptions, pricing, and availability, making it easy to showcase rental options to potential guests.
+
+### Booking System
+
+Allows users to search for available properties, make reservations, and manage their bookings. This feature coordinates property availability and ensures a smooth reservation process for both guests and hosts.
+
+### Review System
+
+Lets users leave feedback and ratings for properties they have stayed in. Reviews help maintain quality standards and provide valuable insights for future guests.
+
+### Payment Processing
+
+Manages secure payment transactions for bookings. This feature integrates with payment gateways to handle payments, refunds, and track transaction statuses, ensuring financial integrity.
+
+### API & Security
+
+Provides RESTful and GraphQL endpoints for frontend integration, with robust authentication and authorization mechanisms. This ensures data privacy and secure interactions between clients and the backend.
+
+### Containerization & Deployment
+
+Utilizes Docker and CI/CD pipelines for consistent deployment and scalability. This feature streamlines the development workflow and simplifies infrastructure management.
