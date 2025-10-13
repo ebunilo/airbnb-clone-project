@@ -26,3 +26,16 @@ The project is structured to simulate a real-world development environment, with
 - **Database Administrators**: Design and manage the database schema, ensuring data integrity and performance.
 - **QA Engineers**: Responsible for testing, bug tracking, and ensuring the quality of the application.
 - **DevOps Engineers**: Manage deployment processes, CI/CD pipelines, and infrastructure.
+
+## Technology Stack
+
+The project utilizes a modern technology stack to ensure scalability, performance, and maintainability:
+
+- **Backend Framework**: Django - This high-level Python web framework encourages rapid development and clean, pragmatic design.
+- **Database**: MySQL - A reliable and widely-used relational database management system.
+- **API**: RESTful APIs and GraphQL - For flexible and efficient data querying.
+- **Containerization**: Docker - To create, deploy, and run applications in containers.
+- **Version Control**: Git and GitHub - For source code management and collaboration.
+- **CI/CD**: GitHub Actions - To automate the testing and deployment processes.
+- **Testing**: PyTest, Postman - For unit testing and API testing.
+- **Documentation**: Markdown, Swagger - For project documentation and API documentation.
