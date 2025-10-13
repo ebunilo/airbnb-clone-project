@@ -107,3 +107,15 @@ Provides RESTful and GraphQL endpoints for frontend integration, with robust aut
 ### Containerization & Deployment
 
 Utilizes Docker and CI/CD pipelines for consistent deployment and scalability. This feature streamlines the development workflow and simplifies infrastructure management.
+
+## API Security
+
+Key security measures implemented in this project include:
+
+- **Authentication**: Ensures only registered users can access protected resources by verifying user identities through secure methods such as JWT or OAuth.
+- **Authorization**: Controls access to specific actions and data, ensuring users can only perform operations permitted by their roles (e.g., only property owners can modify their listings).
+- **Rate Limiting**: Prevents abuse and denial-of-service attacks by restricting the number of requests a user or client can make within a set timeframe.
+- **Data Validation & Sanitization**: Protects against common vulnerabilities like SQL injection and cross-site scripting by validating and sanitizing all user inputs.
+- **Secure Payment Processing**: Integrates with trusted payment gateways and encrypts sensitive transaction data to safeguard financial information.
+
+Security is crucial for protecting user data, maintaining trust, and ensuring compliance with privacy regulations. It also secures payment transactions, prevents unauthorized access, and helps maintain the integrity and availability of the platform.
