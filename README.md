@@ -6,7 +6,7 @@ The Airbnb Clone Project is a comprehensive, real-world application designed to 
 
 ## Learning Objectives
 
-This project is tailored to enhance the expertise in modern software development practices. The developers will:
+This project is tailored to enhance the expertise in modern software development practices.
 
 - Master collaborative team workflows using GitHub.
 - Deepen their understanding of backend architecture and database design principles.
@@ -31,14 +31,17 @@ The project is structured to simulate a real-world development environment, with
 
 The project utilizes a modern technology stack to ensure scalability, performance, and maintainability:
 
-- **Backend Framework**: Django - This high-level Python web framework encourages rapid development and clean, pragmatic design.
-- **Database**: MySQL - A reliable and widely-used relational database management system.
-- **API**: RESTful APIs and GraphQL - For flexible and efficient data querying.
-- **Containerization**: Docker - To create, deploy, and run applications in containers.
-- **Version Control**: Git and GitHub - For source code management and collaboration.
-- **CI/CD**: GitHub Actions - To automate the testing and deployment processes.
+- **Django**: A high-level Python web framework used for building the RESTful API.
+- **Django REST Framework**: Provides tools for creating and managing RESTful APIs.
+- **PostgreSQL**: A powerful, open-source relational database system known for its robustness and performance.
+- **GraphQL**: A query language for APIs that allows clients to request only the data they need.
+- **Celery**: For handling asynchronous tasks such as sending notifications or processing payments
+- **Redis**: Used for caching and session management.
+- **Docker**: Containerization tool for consistent development and deployment environments.
+- **Git and GitHub** For source code management and collaboration.
+- **CI/CD Pipelines**: Automated pipelines for testing and deploying code changes.
 - **Testing**: PyTest, Postman - For unit testing and API testing.
-- **Documentation**: Markdown, Swagger - For project documentation and API documentation.
+- **Documentation**: Markdown, OpenAPI - For project documentation and API documentation.
 
 ## Database Design
 
