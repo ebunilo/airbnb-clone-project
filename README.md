@@ -119,3 +119,9 @@ Key security measures implemented in this project include:
 - **Secure Payment Processing**: Integrates with trusted payment gateways and encrypts sensitive transaction data to safeguard financial information.
 
 Security is crucial for protecting user data, maintaining trust, and ensuring compliance with privacy regulations. It also secures payment transactions, prevents unauthorized access, and helps maintain the integrity and availability of the platform.
+
+## CI/CD Pipeline
+
+Continuous Integration and Continuous Deployment (CI/CD) pipelines automate the process of building, testing, and deploying code changes. They help ensure that new features and fixes are reliably integrated into the project, reducing manual errors and speeding up development cycles.
+
+For this project, tools such as **GitHub Actions** are used to automate testing and deployment workflows, while **Docker** ensures consistent environments across development, testing, and production. These tools together enable rapid, reliable, and scalable delivery of application updates.
