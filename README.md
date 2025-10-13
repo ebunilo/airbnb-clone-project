@@ -39,3 +39,41 @@ The project utilizes a modern technology stack to ensure scalability, performanc
 - **CI/CD**: GitHub Actions - To automate the testing and deployment processes.
 - **Testing**: PyTest, Postman - For unit testing and API testing.
 - **Documentation**: Markdown, Swagger - For project documentation and API documentation.
+
+## Database Design
+
+The core entities for the Airbnb Clone Project are:
+
+### Users
+
+- **Fields**: id, name, email, password_hash, date_joined
+- **Description**: Represents a person using the platform. A user can own multiple properties and make multiple bookings.
+
+### Properties
+
+- **Fields**: id, owner_id (User), title, description, location, price_per_night
+- **Description**: Represents a property listed for rent. Each property is owned by a user.
+
+### Bookings
+
+- **Fields**: id, user_id, property_id, start_date, end_date, status
+- **Description**: Represents a reservation made by a user for a property.
+
+### Reviews
+
+- **Fields**: id, user_id, property_id, rating, comment, created_at
+- **Description**: Represents feedback left by a user for a property after a booking.
+
+### Payments
+
+- **Fields**: id, booking_id, amount, payment_date, status
+- **Description**: Represents payment transactions for bookings.
+
+#### Entity Relationships
+
+- A **User** can own multiple **Properties**.
+- A **User** can make multiple **Bookings**.
+- A **Booking** is linked to one **Property** and one **User**.
+- A **Property** can have multiple **Reviews**.
+- A **Review** is written by a **User** for a **Property**.
+- A **Booking** can have one **Payment**.
