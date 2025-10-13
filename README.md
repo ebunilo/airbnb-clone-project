@@ -44,27 +44,27 @@ The core entities for the Airbnb Clone Project are:
 
 ### Users
 
-- **Fields**: id, name, email, password_hash, date_joined
+- **Fields**: `id, name, email, password_hash, date_joined`
 - **Description**: Represents a person using the platform. A user can own multiple properties and make multiple bookings.
 
 ### Properties
 
-- **Fields**: id, owner_id (User), title, description, location, price_per_night
+- **Fields**: `id, owner_id (User), title, description, location, price_per_night`
 - **Description**: Represents a property listed for rent. Each property is owned by a user.
 
 ### Bookings
 
-- **Fields**: id, user_id, property_id, start_date, end_date, status
+- **Fields**: `id, user_id, property_id, start_date, end_date, status`
 - **Description**: Represents a reservation made by a user for a property.
 
 ### Reviews
 
-- **Fields**: id, user_id, property_id, rating, comment, created_at
+- **Fields**: `id, user_id, property_id, rating, comment, created_at`
 - **Description**: Represents feedback left by a user for a property after a booking.
 
 ### Payments
 
-- **Fields**: id, booking_id, amount, payment_date, status
+- **Fields**: `id, booking_id, amount, payment_date, status`
 - **Description**: Represents payment transactions for bookings.
 
 #### Entity Relationships
