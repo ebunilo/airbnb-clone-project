@@ -17,3 +17,12 @@ This project is tailored to enhance the expertise in modern software development
 - Learn to create and manage RESTful APIs and GraphQL endpoints.
 - Explore the use of Docker for containerization and deployment.
 - Understand the principles of microservices architecture and its application in real-world scenarios.
+
+## Team Roles
+
+The project is structured to simulate a real-world development environment, with team members assigned specific roles:
+
+- **Backend Developers**: Focus on server-side logic, database interactions, and API development.
+- **Database Administrators**: Design and manage the database schema, ensuring data integrity and performance.
+- **QA Engineers**: Responsible for testing, bug tracking, and ensuring the quality of the application.
+- **DevOps Engineers**: Manage deployment processes, CI/CD pipelines, and infrastructure.
