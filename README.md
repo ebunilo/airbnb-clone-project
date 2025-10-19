@@ -113,6 +113,9 @@ The core entities for the Airbnb Clone Project are:
 
 - **Indexing**: Implement indexes for fast retrieval of frequently accessed data.
 - **Caching**: Use caching strategies to reduce database load and improve performance.
+- **Query Optimization**: Optimize database queries to enhance performance and reduce latency.
+- **Data Archiving**: Implement data archiving strategies for old bookings and reviews to maintain database performance.
+- **Connection Pooling**: Use connection pooling to manage database connections efficiently.
 
 
 ## API Security
